@@ -19,7 +19,7 @@ function Item({ id }) {
   return (
     <div className="Item">
       <p>{calc.Calc}</p>
-      <a href={`/CalculatorItem/${calc._id}`} className="btn">Расчитать</a>
+      <a href={`/Calculator/${calc._id}`} className="btn">Расчитать</a>
 
     </div>
   );
