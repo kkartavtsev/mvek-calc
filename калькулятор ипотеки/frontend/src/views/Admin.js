@@ -71,7 +71,7 @@ function Admin() {
       <Header />
       <div className='Admin'>
         <div className='content'>
-          <p className='op'>Создать калькулятор:</p>
+          <p>Создать калькулятор:</p>
           <input id="name" type="text" placeholder="Имя калькулятора" />
           <input id="percent" type="number" placeholder="Процент кредита" />
           <input id="login" type="text" placeholder="Введите логин от админа" />
